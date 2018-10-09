@@ -16,6 +16,7 @@ body{
   color: white;
   font-size: 48px;
   font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 #middle{
@@ -130,4 +131,31 @@ body{
   width: 100px;
   background-color: white;
   text-align: center;
+}
+
+#icons{
+  color: white;
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-shadow: 1px 1px black;
+  justify-content: space-between;
+}
+
+i:hover{
+  color: darkgrey;
+}
+
+#links-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#personal{
+  text-align: center;
+}
+
+#personal:hover{
+  color: darkgrey;
 }
