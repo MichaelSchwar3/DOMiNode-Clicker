@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="./assets/00-css-reset.css">
+    <link rel="stylesheet" media="all" href="./assets/dominodes.css">
+    <script type="text/javascript" src="./lib/dominode.js">
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <section id="top">
+      <span>DOMiNode's Clicker</span>
+    </section>
+    <section id="middle">
+      <div id="instructions">
+        <span><h3>Instructions:</h3></span>
+        <ol>
+          <li>Click the white dots as fast as you can!</li>
+          <li>Keep clicking until the time runs out</li>
+        </ol>
+        <span id="timer-label">Time Left:</span>
+        <button id="timer">0</button>
+        <span id="counter-label">Click Counter:</span>
+        <button id="counter">0</button>
+      </div>
+      <div id="domino-container">
+        <div id="clicker-container">
+
+        </div>
+        <div id="clicker-container2">
+        </div>
+      </div>
+  </section>
+  <section id="bottom">
+    <button onClick="newGame()">Play Again!</button>
+  </section>
+
+  </body>
+</html>

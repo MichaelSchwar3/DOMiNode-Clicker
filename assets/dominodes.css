@@ -1,0 +1,124 @@
+body{
+  width: 100%;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'K2D', sans-serif;
+}
+
+#top{
+  margin-top: 10px;
+  height:100px;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#middle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#instructions{
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+#instructions span{
+  text-align: center;
+}
+
+#instructions button{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  background-color: rgba(178, 34, 34, 0.5);
+}
+
+
+#domino-container{
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 130px;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  transform: rotate(45deg);
+}
+
+#clicker-container{
+  width: 200px;
+  height: 160px;
+  background-color: red;
+  position: relative;
+}
+
+#clicker-container2{
+  margin-top: 20px;
+  width:200px;
+  height: 160px;
+  background-color: blue;
+  position: relative;
+}
+
+.clickable{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.clickable2{
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.pos-1{
+  top:5px;
+  left:5px;
+}
+
+.pos-2{
+  top:50px;
+  left:5px;
+}
+
+.pos-3{
+  top:100px;
+  left: 5px;
+}
+.pos-4{
+  top:5px;
+  left:145px;
+}
+.pos-5{
+  top:50px;
+  left:145px;
+}
+.pos-6{
+  top:100px;
+  left:145px;
+}
+
+.pos-7{
+  top:50px;
+  left:75px;
+}
